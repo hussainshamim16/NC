@@ -77,7 +77,7 @@ const footer_bottom = [
 const FooterTwo = () => {
   return (
     <>
-      <footer>
+      <footer style={{marginTop:'60px'}}> 
         <div
           className="footer-bg theme-bg-secondary"
           style={{ backgroundImage: `url(/assets/img/bg/shape-bg-1.png)` }}

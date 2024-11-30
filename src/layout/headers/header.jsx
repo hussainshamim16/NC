@@ -28,30 +28,9 @@ const {sticky} = useSticky()
                 <div className="col-xxl-3 col-xl-3 col-lg-5 col-md-6 col-6">
                   <div className="logo-area d-flex align-items-center">
                     <div className="logo">
-                      <Link href="/">
-                        <img src="/assets/img/logo/logo.png" alt="logo" />
-                      </Link>
-                    </div>
-                    <div className="header-cat-menu ml-40 d-none d-md-block">
-                      <nav>
-                        <ul>
-                          <li>
-                            <a href="#">
-                              Categorie {" "}
-                              <span>
-                                <i className="arrow_carrot-down"></i>
-                              </span>
-                            </a>
-                            <ul className="sub-menu">
-                              {category_data.map((item, i) => 
-                               <li key={i}>
-                               <Link href="/course-grid">{item.title}</Link>
-                             </li>
-                              )}
-                            </ul>
-                          </li>
-                        </ul>
-                      </nav>
+                    <Link href="/">
+                              <img src="/assets/img/logo/Nani (1).svg" alt="logo" style={{width:"70%"}}/>
+                           </Link>
                     </div>
                   </div>
                 </div>

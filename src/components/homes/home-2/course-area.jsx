@@ -2,7 +2,7 @@ import course_data_2 from "@/src/data/course-data-2";
 import Link from "next/link";
 import React from "react";
 
-const CourseArea = () => {
+const CourseAreaReal = () => {
   return (
     <>
       <section
@@ -103,4 +103,4 @@ const CourseArea = () => {
   );
 };
 
-export default CourseArea;
+export default CourseAreaReal;
