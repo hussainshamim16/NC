@@ -16,6 +16,7 @@ import Header from "@/src/layout/headers/header";
 import FeatureArea from "../home/feature-area";
 import CourseArea from "../home/course-area";
 import OurCourse from "../home-3/our-course";
+import TestimonialArea from "../home/testimonial-area";
 
 const HomeTwo = () => {
   return (
@@ -32,7 +33,8 @@ const HomeTwo = () => {
       <CourseAreaReal />
       <ChooseArea style_2={true} />
       <InstructorArea style_2={true} />
-      <TestimonialAreaTwo />
+      {/* <TestimonialAreaTwo /> */}
+      <TestimonialArea />
       <SuitableArea style_2={true} />
       <BlogArea />
       <BrandArea style_2={true} />
